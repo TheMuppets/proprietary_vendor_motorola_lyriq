@@ -24898,6 +24898,41 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    name: "android.hardware.secure_element@1.2-service-mediatek",
+    owner: "motorola",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek",
+            ],
+            shared_libs: [
+                "libbase",
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libbinder_ndk",
+                "android.hardware.secure_element-V1-ndk",
+                "android.hardware.radio.sim-V3-ndk",
+                "android.hardware.radio.modem-V3-ndk",
+                "vendor.mediatek.hardware.mtkradioex.sim-V1-ndk",
+                "vendor.mediatek.hardware.mtkradioex.se-V1-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "android.hardware.security.keymint@3.0-service.trustonic_norkp",
     owner: "motorola",
     target: {

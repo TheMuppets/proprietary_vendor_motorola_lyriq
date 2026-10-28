@@ -266,6 +266,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lyriq/proprietary/vendor/etc/init/android.hardware.graphics.composer@3.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@3.3-service.rc \
     vendor/motorola/lyriq/proprietary/vendor/etc/init/android.hardware.media.c2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2-mediatek.rc \
     vendor/motorola/lyriq/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
+    vendor/motorola/lyriq/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/motorola/lyriq/proprietary/vendor/etc/init/android.hardware.security.keymint@3.0-service.trustonic_norkp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint@3.0-service.trustonic_norkp.rc \
     vendor/motorola/lyriq/proprietary/vendor/etc/init/android.hardware.tetheroffload-V1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.tetheroffload-V1-service.rc \
     vendor/motorola/lyriq/proprietary/vendor/etc/init/arm.mali.platform-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/arm.mali.platform-mediatek.rc \
@@ -1280,6 +1281,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@3.3-service \
     android.hardware.media.c2-mediatek \
     android.hardware.neuralnetworks-shim-service-mtk-legacy \
+    android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.security.keymint@3.0-service.trustonic_norkp \
     camerahalserver \
     motorola.hardware.camera.imgtuner.aidl-service \
