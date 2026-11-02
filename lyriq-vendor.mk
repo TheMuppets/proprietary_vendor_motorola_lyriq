@@ -1271,7 +1271,6 @@ PRODUCT_PACKAGES += \
     mtk_lbs_service.xml \
     ccci_mdinit \
     ccci_rpcd \
-    conninfra_loader \
     gsm0710muxd \
     hardware_revisions \
     android.hardware.audio.service-aidl.mediatek \
