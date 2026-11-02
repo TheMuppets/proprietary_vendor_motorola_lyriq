@@ -1004,6 +1004,7 @@ PRODUCT_PACKAGES += \
     libmtkrilutils \
     libmtkshifter_vendor \
     libmtkspparser \
+    libmtkspparser_swb \
     libmtksysutils \
     libmtktinyxml \
     libmtkutils \
