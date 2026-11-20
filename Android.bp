@@ -38,6 +38,705 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "AV1SecureVdecCA",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/AV1SecureVdecCA.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libion",
+                "libion_mtk",
+                "libcutils",
+                "libgz_uree",
+                "libgz_gp_client",
+                "libdmabufheap",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/AV1SecureVdecCA.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libion",
+                "libion_mtk",
+                "libcutils",
+                "libgz_uree",
+                "libgz_gp_client",
+                "libdmabufheap",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "AVCSecureVdecCA",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/AVCSecureVdecCA.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libion",
+                "libion_mtk",
+                "libcutils",
+                "libgz_uree",
+                "libgz_gp_client",
+                "libdmabufheap",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/AVCSecureVdecCA.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libion",
+                "libion_mtk",
+                "libcutils",
+                "libgz_uree",
+                "libgz_gp_client",
+                "libdmabufheap",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "HEVCSecureVdecCA",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/HEVCSecureVdecCA.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libion",
+                "libion_mtk",
+                "libcutils",
+                "libgz_uree",
+                "libgz_gp_client",
+                "libdmabufheap",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/HEVCSecureVdecCA.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libion",
+                "libion_mtk",
+                "libcutils",
+                "libgz_uree",
+                "libgz_gp_client",
+                "libdmabufheap",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "VP9SecureVdecCA",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/VP9SecureVdecCA.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libion",
+                "libion_mtk",
+                "libcutils",
+                "libgz_uree",
+                "libgz_gp_client",
+                "libdmabufheap",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/VP9SecureVdecCA.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libion",
+                "libion_mtk",
+                "libcutils",
+                "libgz_uree",
+                "libgz_gp_client",
+                "libdmabufheap",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libAVCSecureVencCA",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libAVCSecureVencCA.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libion",
+                "libion_mtk",
+                "libcutils",
+                "libutils",
+                "libgz_uree",
+                "libgz_gp_client",
+                "libdmabufheap",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libAVCSecureVencCA.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libion",
+                "libion_mtk",
+                "libcutils",
+                "libutils",
+                "libgz_uree",
+                "libgz_gp_client",
+                "libdmabufheap",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libapusys",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libapusys.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "liblog",
+                "libcutils",
+                "libion",
+                "libion_mtk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libapusys.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "liblog",
+                "libcutils",
+                "libion",
+                "libion_mtk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbwc",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libbwc.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libbwc.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgz_gp_client",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libgz_gp_client.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libgz_uree",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libgz_gp_client.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libgz_uree",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgz_uree",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libgz_uree.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libgz_uree.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvcodec_oal",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libvcodec_oal.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libmtkperf_client_vendor",
+                "libc++",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libvcodec_oal.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libmtkperf_client_vendor",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvcodec_utility_v3a",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libvcodec_utility_v3a.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libbwc",
+                "liblog",
+                "libion",
+                "libion_mtk",
+                "libmtk_drvb",
+                "libgz_uree",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libvcodec_utility_v3a.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libbwc",
+                "liblog",
+                "libion",
+                "libion_mtk",
+                "libmtk_drvb",
+                "libgz_uree",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvcodecdrv_header_stub",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libvcodecdrv_header_stub.so",
+            ],
+            shared_libs: [
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libvcodecdrv_header_stub.so",
+            ],
+            shared_libs: [
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvcodecdrv_v3a",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libvcodecdrv_v3a.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libvcodec_utility_v3a",
+                "libmtk_drvb",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libvcodecdrv_v3a.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libvcodec_utility_v3a",
+                "libmtk_drvb",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvpu",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libvpu.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libion",
+                "liblog",
+                "libcutils",
+                "libapusys",
+                "libion_mtk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libvpu.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libion",
+                "liblog",
+                "libcutils",
+                "libapusys",
+                "libion_mtk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtk_drvb",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/mt6893/libmtk_drvb.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6893/libmtk_drvb.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "mt6893",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvpudv3a_vcodec",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libvpudv3a_vcodec.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libvcodecdrv_v3a",
+                "libvcodec_utility_v3a",
+                "liblog",
+                "libion",
+                "libion_mtk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "APUWareApusysAidlServer",
     owner: "motorola",
     strip: {
@@ -127,130 +826,6 @@ cc_prebuilt_library_shared {
                 "libdmabufheap",
                 "libbinder_ndk",
                 "vendor.mediatek.hardware.apuware.xrp-V1-ndk_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "AV1SecureVdecCA",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/AV1SecureVdecCA.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libion",
-                "libion_mtk",
-                "libcutils",
-                "libgz_uree",
-                "libgz_gp_client",
-                "libdmabufheap",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "AVCSecureVdecCA",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/AVCSecureVdecCA.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libion",
-                "libion_mtk",
-                "libcutils",
-                "libgz_uree",
-                "libgz_gp_client",
-                "libdmabufheap",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "HEVCSecureVdecCA",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/HEVCSecureVdecCA.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libion",
-                "libion_mtk",
-                "libcutils",
-                "libgz_uree",
-                "libgz_gp_client",
-                "libdmabufheap",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "VP9SecureVdecCA",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/VP9SecureVdecCA.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libion",
-                "libion_mtk",
-                "libcutils",
-                "libgz_uree",
-                "libgz_gp_client",
-                "libdmabufheap",
                 "libc++",
                 "libc",
                 "libm",
@@ -2247,38 +2822,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libm",
                 "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libAVCSecureVencCA",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libAVCSecureVencCA.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libion",
-                "libion_mtk",
-                "libcutils",
-                "libutils",
-                "libgz_uree",
-                "libgz_gp_client",
-                "libdmabufheap",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
             ],
         },
     },
@@ -9084,35 +9627,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libapusys",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libapusys.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "liblog",
-                "libcutils",
-                "libion",
-                "libion_mtk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libarc.ion",
     owner: "motorola",
     strip: {
@@ -10074,33 +10588,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libbluetooth_mtk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libbwc",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libbwc.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -13505,57 +13992,6 @@ cc_prebuilt_library_shared {
                 "libion",
                 "libc",
                 "libc++",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libgz_gp_client",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgz_gp_client.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libgz_uree",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libgz_uree",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgz_uree.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libc",
                 "libm",
                 "libdl",
             ],
@@ -18632,118 +19068,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libvcodec_oal",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libvcodec_oal.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libmtkperf_client_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvcodec_utility_v3a",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libvcodec_utility_v3a.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libbwc",
-                "liblog",
-                "libion",
-                "libion_mtk",
-                "libmtk_drvb",
-                "libgz_uree",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvcodecdrv_header_stub",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libvcodecdrv_header_stub.so",
-            ],
-            shared_libs: [
-                "libion",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvcodecdrv_v3a",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libvcodecdrv_v3a.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libvcodec_utility_v3a",
-                "libmtk_drvb",
-                "libion",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libvia-ril",
     owner: "motorola",
     strip: {
@@ -19251,36 +19575,6 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvpudv3a_vcodec",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libvpudv3a_vcodec.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libvcodecdrv_v3a",
-                "libvcodec_utility_v3a",
-                "liblog",
-                "libion",
-                "libion_mtk",
                 "libc++",
                 "libc",
                 "libm",
@@ -20578,34 +20872,6 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "liblog",
                 "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "mt6893",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmtk_drvb",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/mt6893/libmtk_drvb.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
                 "libc++",
                 "libc",
                 "libm",
@@ -25832,12 +26098,12 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "v3avpud-64b",
+    name: "v3avpud",
     owner: "motorola",
     target: {
-        android_arm64: {
+        android_arm: {
             srcs: [
-                "proprietary/vendor/bin/v3avpud-64b",
+                "proprietary/vendor/bin/v3avpud",
             ],
             shared_libs: [
                 "libcutils",
@@ -25853,7 +26119,7 @@ cc_prebuilt_binary {
             ],
         },
     },
-    compile_multilib: "64",
+    compile_multilib: "32",
     strip: {
         none: true,
     },
@@ -25958,6 +26224,13 @@ install_symlink {
     soc_specific: true,
     installed_location: "bin/expat",
     symlink_target: "/vendor/bin/motobox",
+}
+
+install_symlink {
+    name: "vendor_lib_libmtk_drvb_so",
+    soc_specific: true,
+    installed_location: "lib/libmtk_drvb.so",
+    symlink_target: "/vendor/lib/mt6893/libmtk_drvb.so",
 }
 
 install_symlink {

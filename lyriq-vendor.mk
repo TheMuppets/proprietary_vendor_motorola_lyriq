@@ -295,6 +295,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lyriq/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
     vendor/motorola/lyriq/proprietary/vendor/etc/init/tee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee.rc \
     vendor/motorola/lyriq/proprietary/vendor/etc/init/trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustonic.rc \
+    vendor/motorola/lyriq/proprietary/vendor/etc/init/v3avpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/v3avpud.rc \
     vendor/motorola/lyriq/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent-service.rc \
     vendor/motorola/lyriq/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms-service.rc \
     vendor/motorola/lyriq/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram-sevice.rc \
@@ -412,13 +413,25 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     av-audio-types-aidl-V1-ndk \
-    APUWareApusysAidlServer \
-    APUWareUtilsAidlServer \
-    APUWareXrpAidlServer \
     AV1SecureVdecCA \
     AVCSecureVdecCA \
     HEVCSecureVdecCA \
     VP9SecureVdecCA \
+    libAVCSecureVencCA \
+    libapusys \
+    libbwc \
+    libgz_gp_client \
+    libgz_uree \
+    libvcodec_oal \
+    libvcodec_utility_v3a \
+    libvcodecdrv_header_stub \
+    libvcodecdrv_v3a \
+    libvpu \
+    libmtk_drvb \
+    libvpudv3a_vcodec \
+    APUWareApusysAidlServer \
+    APUWareUtilsAidlServer \
+    APUWareXrpAidlServer \
     android.hardware.audio.core-impl-mediatek \
     android.hardware.bluetooth.audio-impl-mediatek \
     com.motorola.hardware.display.panel-V1-ndk \
@@ -479,7 +492,6 @@ PRODUCT_PACKAGES += \
     lib3a.n3d3a \
     lib3a.sensors.color \
     lib3a.sensors.flicker \
-    libAVCSecureVencCA \
     libAncHumanSegFigureFusion \
     libArcNetMtk \
     libBSTAiScene \
@@ -756,7 +768,6 @@ PRODUCT_PACKAGES += \
     libappgamepq \
     libapu_mdw \
     libapu_mdw_batch \
-    libapusys \
     libarc.ion \
     libarcsoft_portrait_distortion_correction \
     libarcsoft_portrait_super_night_se_raw \
@@ -792,7 +803,6 @@ PRODUCT_PACKAGES += \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
     libbt-vendor \
-    libbwc \
     libcam.afhal \
     libcam.chdr \
     libcam.feature_utils \
@@ -889,8 +899,6 @@ PRODUCT_PACKAGES += \
     libgralloc_extra \
     libgralloc_metadata \
     libgralloctypes_mtk \
-    libgz_gp_client \
-    libgz_uree \
     libheichal \
     libhfmanager \
     libhfmanagerwrapper \
@@ -1047,10 +1055,6 @@ PRODUCT_PACKAGES += \
     libthha \
     libtrm \
     libudf \
-    libvcodec_oal \
-    libvcodec_utility_v3a \
-    libvcodecdrv_header_stub \
-    libvcodecdrv_v3a \
     libvia-ril \
     libviamipc-ril \
     libvidhance \
@@ -1070,7 +1074,6 @@ PRODUCT_PACKAGES += \
     libvow_ap_test_vaca_hh \
     libvow_ap_test_vaca_nn \
     libvow_comp_test \
-    libvpudv3a_vcodec \
     libwapi \
     libwifi-hal-mtk \
     libwifical \
@@ -1110,7 +1113,6 @@ PRODUCT_PACKAGES += \
     libmmagent \
     libmml \
     libmmlpqImpl \
-    libmtk_drvb \
     libneuron_adapter_mgvi \
     libneuron_platform.vpu \
     libneuron_runtime.5 \
@@ -1318,13 +1320,14 @@ PRODUCT_PACKAGES += \
     rcs_volte_stack \
     thermal_core \
     thermal_intf \
-    v3avpud-64b \
+    v3avpud \
     volte_clientapi_ua \
     android.hardware.audio.parameter_parser.service \
     vtservice
 
 PRODUCT_PACKAGES += \
     vendor_bin_expat \
+    vendor_lib_libmtk_drvb_so \
     vendor_lib64_egl_libGLES_mali_so \
     vendor_lib64_hw_android_hardware_graphics_allocator-V2-mediatek_so \
     vendor_lib64_hw_mapper_mediatek_so \
