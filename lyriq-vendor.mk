@@ -436,11 +436,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl-mediatek \
     com.motorola.hardware.display.panel-V1-ndk \
     com.motorola.hardware.display.panel@1.0 \
-    libGLES_meow \
-    libMEOW_data \
-    libMEOW_gift \
-    libMEOW_qt \
-    libMEOW_trace \
     libGLES_mali \
     ese_teq1_nxp_snxxx \
     android.hardware.audio.effect.aidl-impl-mediatek \
