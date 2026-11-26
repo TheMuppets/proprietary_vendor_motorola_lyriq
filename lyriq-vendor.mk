@@ -1070,7 +1070,6 @@ PRODUCT_PACKAGES += \
     libvow_ap_test_vaca_nn \
     libvow_comp_test \
     libwapi \
-    libwifi-hal-mtk \
     libwifical \
     libwifinvram \
     libwifinvramdata \
